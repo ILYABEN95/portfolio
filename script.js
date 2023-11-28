@@ -56,7 +56,7 @@ workEls.forEach((workEl) => {
   observer.observe(workEl);
 });
 
-//  theme and store user preferred theme
+//  theme and store user preferred theme.
 
 const switchThemeEl = document.querySelector('input[type="checkbox"]');
 const storedTheme = localStorage.getItem("theme");
