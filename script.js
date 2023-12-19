@@ -34,7 +34,7 @@ document.body.addEventListener("keydown", (e) => {
   }
 });
 
-// Animating work instances on scroll..
+// Animating work instances on scroll.
 
 workImgs.forEach((workImg) => workImg.classList.add("transform"));
 
