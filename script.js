@@ -7,13 +7,13 @@ const mainEl = document.querySelector("main");
 const toggleNav = () => {
   nav.classList.toggle("hidden");
 
-  // Prevent screen from scrolling when menu is opened.
+  // Prevent screen from scrolling when menu is opened
   document.body.classList.toggle("lock-screen");
 
   if (nav.classList.contains("hidden")) {
     btnToggleNav.textContent = "menu";
   } else {
-    // When menu is opened after transition change text respectively.
+    // When menu is opened after transition change text respectively
     setTimeout(() => {
       btnToggleNav.textContent = "close";
     }, 475);
@@ -34,7 +34,7 @@ document.body.addEventListener("keydown", (e) => {
   }
 });
 
-// Animating work instances on scroll.
+// Animating work instances on scroll
 
 workImgs.forEach((workImg) => workImg.classList.add("transform"));
 
@@ -78,7 +78,7 @@ switchThemeEl.addEventListener("click", () => {
   }
 });
 
-// Trap the tab when menu is opened.
+// Trap the tab when menu is opened
 
 const lastFocusedEl = document.querySelector('a[data-focused="last-focused"]');
 
