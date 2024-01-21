@@ -79,7 +79,7 @@ switchThemeEl.addEventListener("click", () => {
   }
 });
 
-// Trap the tab when menu is opened
+//  Trap the tab when menu is opened
 
 const lastFocusedEl = document.querySelector('a[data-focused="last-focused"]');
 
