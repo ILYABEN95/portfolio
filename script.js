@@ -16,7 +16,7 @@ const toggleNav = () => {
     btnToggleNav.textContent = "menu";
   } else {
     // When menu is opened after transition change text respectively                    
-    setTimeout(() => {
+    setTimeout(() => { 
       btnToggleNav.textContent = "close";
     }, 475);
   }
