@@ -5,7 +5,7 @@ const workEls = document.querySelectorAll(".work-box");
 const workImgs = document.querySelectorAll(".work-img"); 
 const mainEl = document.querySelector("main");
 const toggleNav = () => {  
-  nav.classList.toggle("hidden");
+  nav.classList.toggle("hidden"); 
     
   // Prevent screen from scrolling when menu is opened        
       
