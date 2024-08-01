@@ -1,4 +1,4 @@
- const nav = document.querySelector(".nav");
+  const nav = document.querySelector(".nav");
 const navMenu = document.querySelector(".nav-items"); 
 const btnToggleNav = document.querySelector(".menu-btn");
 const workEls = document.querySelectorAll(".work-box");
