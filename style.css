@@ -5,7 +5,7 @@
   src: url("assets/fonts/Mona-Sans.woff2") format("woff2 supports variations"),
     url("assets/fonts/Mona-Sans.woff2") format("woff2-variations"); 
   font-display: swap;  
-  font-weight: 200 700;  
+  font-weight: 200 700;   
   font-stretch: 75% 125%;   
 }    
   
