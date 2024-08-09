@@ -10,7 +10,7 @@ const toggleNav = () => {
   // Prevent screen from scrolling when menu is opened         
        
            
-  document.body.classList.toggle("lock-screen");  
+  document.body.classList.toggle("lock-screen");   
  
   if (nav.classList.contains("hidden")) {
     btnToggleNav.textContent = "menu"; 
